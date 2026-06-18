@@ -1,0 +1,98 @@
+{
+  "users": [
+    {
+      "_id": "77c704bd-90de-4025-bb6d-619c2d151895",
+      "name": "Test User",
+      "email": "testuser.local@example.com",
+      "password": "$2a$10$lGGtUCFrcsgUD1qGiOxecus8XvcH2WuWklavYCZCIYnUcoa.N8U62",
+      "isVerified": true,
+      "otpExpiry": null,
+      "createdAt": "2026-06-18T17:01:44.139Z",
+      "updatedAt": "2026-06-18T17:01:44.139Z"
+    },
+    {
+      "_id": "57eee232-727d-494f-ab03-3be967b7075a",
+      "name": "Saurav Ratan",
+      "email": "ratansaurav3102@gmail.com",
+      "password": "$2a$10$o1zOgI6Wji8RaOsR87WaO.R1W5cD5O0iEJuCuiUq0x.qUVHBMyoke",
+      "isVerified": true,
+      "otpExpiry": null,
+      "createdAt": "2026-06-18T17:04:42.696Z",
+      "updatedAt": "2026-06-18T17:04:42.696Z"
+    }
+  ],
+  "emailHistory": [
+    {
+      "_id": "059554cf-940c-40d3-8b83-8477f19bc219",
+      "userId": "57eee232-727d-494f-ab03-3be967b7075a",
+      "prompt": "Write a professional cold email to an HR/recruiter at TCS for a Software Engineering Internship.\n\nCandidate Details:\n\nName: Saurav Ratan\n\nEducation:\n\n* B.Tech in Computer Science, IIIT Jabalpur (2023–2027)\n\nTechnical Skills:\n\n* C++, JavaScript, Java, SQL\n* React.js, Node.js, Express.js, MongoDB\n* REST APIs, JWT Authentication\n* Git, GitHub, Postman\n\nKey Achievements:\n\n* Solved 600+ Data Structures and Algorithms problems.\n* Peak LeetCode Rating: 1848 (Knight).\n* Global Rank 470 in LeetCode Biweekly Contest 155.\n* Global Rank 666 in LeetCode Weekly Contest 447.\n* Flipkart GRiD 7.0 Semi-Finalist among 500,000+ participants.\n\nProjects:\n\n1. AI-Powered Interview Preparation Platform\n\n   * Built using React.js, Node.js, Express.js, MongoDB, and Gemini AI.\n   * Implemented scalable REST APIs, JWT authentication, resume analysis, and AI-generated interview feedback.\n\n2. Job Portal Web Application\n\n   * Developed recruiter and candidate workflows with role-based authentication.\n   * Built backend modules for job posting, application tracking, and company management.\n\n3. Movie Recommender System\n\n   * Developed using Python, Pandas, Scikit-learn, and Streamlit.\n   * Processed 5,000+ movie records and implemented recommendation algorithms.\n\nRequirements:\n\n* Address the email to a TCS recruiter/HR.\n* Keep the tone professional, concise, and enthusiastic.\n* Highlight problem-solving skills, software development experience, and interest in working at TCS.\n* Mention how my projects and technical skills align with TCS's technology-driven environment.\n* Request consideration for internship opportunities and mention that my resume is attached.\n* Keep the email between 150–200 words.\n* Generate a strong subject line.\n* End with a professional call to action and contact information.",
+      "subject": "A Software Engineering Internship Ready To Add Value At TCS For A Software Engineering Internship",
+      "emailBody": "Hi TCS For A Software Engineering Internship,\n\nI noticed your team is hiring for A Software Engineering Internship, and that immediately caught my attention.\nTeams hiring for this kind of role usually need someone who can contribute quickly, write clean code, and take ownership of production work.\nI bring hands-on experience building backend features, improving APIs, and solving implementation problems with a strong focus on reliability and execution.\nI would welcome the opportunity to contribute to TCS For A Software Engineering Internship and discuss how my background fits the role.\n\nBest regards,\nSaurav Ratan\nSoftware Engineer",
+      "linkedInDM": "Hi, I came across the A Software Engineering Internship opening at TCS For A Software Engineering Internship. I have experience building production-ready backend features and improving system reliability, and I would love to connect briefly to share why I could be a strong fit for the role.",
+      "followUpEmail": "Hi TCS For A Software Engineering Internship,\n\nFollowing up on my earlier note regarding the A Software Engineering Internship opportunity.\nI remain very interested and believe I can contribute through strong engineering fundamentals, ownership, and reliable execution.\nIf helpful, I would be glad to share a short summary of relevant projects and backend work aligned with your hiring needs.\n\nBest regards,\nSaurav Ratan",
+      "generationMode": "local-template",
+      "createdAt": "2026-06-18T17:12:11.365Z",
+      "updatedAt": "2026-06-18T17:12:11.365Z"
+    },
+    {
+      "_id": "d798eb6e-4984-48f9-906e-b1c8b2465b66",
+      "userId": "57eee232-727d-494f-ab03-3be967b7075a",
+      "prompt": "Write a personalized cold email to a Google recruiter for a Software Engineering Internship.\n\nCandidate: Saurav Ratan\nEducation: B.Tech CSE, IIIT Jabalpur (2023–2027)\n\nSkills:\n\n* C++, Java, JavaScript, SQL\n* DSA, OOP, DBMS, OS, CN\n* React.js, Node.js, Express.js, MongoDB\n* REST APIs, JWT Authentication\n\nAchievements:\n\n* Solved 600+ DSA problems\n* LeetCode Knight (Peak Rating: 1848)\n* Global Rank 470 in LeetCode Biweekly Contest 155\n* Global Rank 666 in LeetCode Weekly Contest 447\n* Flipkart GRiD 7.0 Semi-Finalist\n\nProjects:\n\n1. AI-Powered Interview Preparation Platform using React, Node.js, MongoDB, and Gemini AI with scalable APIs, resume analysis, and AI-generated feedback.\n2. Job Portal Web Application with JWT authentication, role-based access control, REST APIs, and MongoDB.\n3. Movie Recommender System using Python, Pandas, Scikit-learn, and Streamlit.\n\nRequirements:\n\n* Address the email to a Google recruiter.\n* Keep it professional, concise, and personalized.\n* Highlight problem-solving ability, competitive programming achievements, and full-stack development experience.\n* Emphasize interest in building scalable products that impact billions of users.\n* Explain why my skills and projects align with Google's engineering culture.\n* Request consideration for Software Engineering Internship opportunities.\n* Mention that my resume is attached.\n* Keep the email under 200 words.\n* Generate a compelling subject line and a strong call to action.",
+      "subject": "A Software Engineering Internship Ready To Add Value At JWT Authentication",
+      "emailBody": "Hi JWT Authentication,\n\nI noticed your team is hiring for A Software Engineering Internship, and that immediately caught my attention.\nTeams hiring for this kind of role usually need someone who can contribute quickly, write clean code, and take ownership of production work.\nI bring hands-on experience building backend features, improving APIs, and solving implementation problems with a strong focus on reliability and execution.\nI would welcome the opportunity to contribute to JWT Authentication and discuss how my background fits the role.\n\nBest regards,\nSaurav Ratan\nSoftware Engineer",
+      "linkedInDM": "Hi, I came across the A Software Engineering Internship opening at JWT Authentication. I have experience building production-ready backend features and improving system reliability, and I would love to connect briefly to share why I could be a strong fit for the role.",
+      "followUpEmail": "Hi JWT Authentication,\n\nFollowing up on my earlier note regarding the A Software Engineering Internship opportunity.\nI remain very interested and believe I can contribute through strong engineering fundamentals, ownership, and reliable execution.\nIf helpful, I would be glad to share a short summary of relevant projects and backend work aligned with your hiring needs.\n\nBest regards,\nSaurav Ratan",
+      "generationMode": "local-template",
+      "createdAt": "2026-06-18T17:15:34.867Z",
+      "updatedAt": "2026-06-18T17:15:34.867Z"
+    },
+    {
+      "_id": "4e21ad15-8ef3-4458-b71d-f40bdd1c7d39",
+      "userId": "57eee232-727d-494f-ab03-3be967b7075a",
+      "prompt": "Write a personalized cold email to a Google recruiter for a Software Engineering Internship.",
+      "subject": "A Software Engineering Internship Ready To Add Value At The Hiring Team",
+      "emailBody": "Hi The Hiring Team,\n\nI noticed your team is hiring for A Software Engineering Internship, and that immediately caught my attention.\nTeams hiring for this kind of role usually need someone who can contribute quickly, write clean code, and take ownership of production work.\nI bring hands-on experience building backend features, improving APIs, and solving implementation problems with a strong focus on reliability and execution.\nI would welcome the opportunity to contribute to The Hiring Team and discuss how my background fits the role.\n\nBest regards,\nSaurav Ratan\nSoftware Engineer",
+      "linkedInDM": "Hi, I came across the A Software Engineering Internship opening at The Hiring Team. I have experience building production-ready backend features and improving system reliability, and I would love to connect briefly to share why I could be a strong fit for the role.",
+      "followUpEmail": "Hi The Hiring Team,\n\nFollowing up on my earlier note regarding the A Software Engineering Internship opportunity.\nI remain very interested and believe I can contribute through strong engineering fundamentals, ownership, and reliable execution.\nIf helpful, I would be glad to share a short summary of relevant projects and backend work aligned with your hiring needs.\n\nBest regards,\nSaurav Ratan",
+      "generationMode": "local-template",
+      "createdAt": "2026-06-18T17:18:52.612Z",
+      "updatedAt": "2026-06-18T17:18:52.612Z"
+    },
+    {
+      "_id": "37422b68-b60b-4850-a0b7-a1d9fa08fe7a",
+      "userId": "57eee232-727d-494f-ab03-3be967b7075a",
+      "prompt": "Write a personalized cold email to a Google recruiter for a Software Engineering Internship.\n\nCandidate: Saurav Ratan\nEducation: B.Tech CSE, IIIT Jabalpur (2023–2027)\n\nSkills:\n\n* C++, Java, JavaScript, SQL\n* DSA, OOP, DBMS, OS, CN\n* React.js, Node.js, Express.js, MongoDB\n* REST APIs, JWT Authentication\n\nAchievements:\n\n* Solved 600+ DSA problems\n* LeetCode Knight (Peak Rating: 1848)\n* Global Rank 470 in LeetCode Biweekly Contest 155\n* Global Rank 666 in LeetCode Weekly Contest 447\n* Flipkart GRiD 7.0 Semi-Finalist\n\nProjects:\n\n1. AI-Powered Interview Preparation Platform using React, Node.js, MongoDB, and Gemini AI with scalable APIs, resume analysis, and AI-generated feedback.\n2. Job Portal Web Application with JWT authentication, role-based access control, REST APIs, and MongoDB.\n3. Movie Recommender System using Python, Pandas, Scikit-learn, and Streamlit.\n\nRequirements:\n\n* Address the email to a Google recruiter.\n* Keep it professional, concise, and personalized.\n* Highlight problem-solving ability, competitive programming achievements, and full-stack development experience.\n* Emphasize interest in building scalable products that impact billions of users.\n* Explain why my skills and projects align with Google's engineering culture.\n* Request consideration for Software Engineering Internship opportunities.\n* Mention that my resume is attached.\n* Keep the email under 200 words.\n* Generate a compelling subject line and a strong call to action.",
+      "subject": "A Software Engineering Internship Ready To Add Value At JWT Authentication",
+      "emailBody": "Hi JWT Authentication,\n\nI noticed your team is hiring for A Software Engineering Internship, and that immediately caught my attention.\nTeams hiring for this kind of role usually need someone who can contribute quickly, write clean code, and take ownership of production work.\nI bring hands-on experience building backend features, improving APIs, and solving implementation problems with a strong focus on reliability and execution.\nI would welcome the opportunity to contribute to JWT Authentication and discuss how my background fits the role.\n\nBest regards,\nSaurav Ratan\nSoftware Engineer",
+      "linkedInDM": "Hi, I came across the A Software Engineering Internship opening at JWT Authentication. I have experience building production-ready backend features and improving system reliability, and I would love to connect briefly to share why I could be a strong fit for the role.",
+      "followUpEmail": "Hi JWT Authentication,\n\nFollowing up on my earlier note regarding the A Software Engineering Internship opportunity.\nI remain very interested and believe I can contribute through strong engineering fundamentals, ownership, and reliable execution.\nIf helpful, I would be glad to share a short summary of relevant projects and backend work aligned with your hiring needs.\n\nBest regards,\nSaurav Ratan",
+      "generationMode": "local-template",
+      "createdAt": "2026-06-18T17:20:09.009Z",
+      "updatedAt": "2026-06-18T17:20:09.009Z"
+    },
+    {
+      "_id": "5f95e8ac-64e4-4967-89e9-2398c0948d91",
+      "userId": "57eee232-727d-494f-ab03-3be967b7075a",
+      "prompt": "Write a personalized cold email to a Google recruiter for a Software Engineering Internship.\n\nCandidate: Saurav Ratan\nEducation: B.Tech CSE, IIIT Jabalpur (2023–2027)\n\nSkills:\n\n* C++, Java, JavaScript, SQL\n* DSA, OOP, DBMS, OS, CN\n* React.js, Node.js, Express.js, MongoDB\n* REST APIs, JWT Authentication\n\nAchievements:\n\n* Solved 600+ DSA problems\n* LeetCode Knight (Peak Rating: 1848)\n* Global Rank 470 in LeetCode Biweekly Contest 155\n* Global Rank 666 in LeetCode Weekly Contest 447\n* Flipkart GRiD 7.0 Semi-Finalist\n\nProjects:\n\n1. AI-Powered Interview Preparation Platform using React, Node.js, MongoDB, and Gemini AI with scalable APIs, resume analysis, and AI-generated feedback.\n2. Job Portal Web Application with JWT authentication, role-based access control, REST APIs, and MongoDB.\n3. Movie Recommender System using Python, Pandas, Scikit-learn, and Streamlit.\n\nRequirements:\n\n* Address the email to a Google recruiter.\n* Keep it professional, concise, and personalized.\n* Highlight problem-solving ability, competitive programming achievements, and full-stack development experience.\n* Emphasize interest in building scalable products that impact billions of users.\n* Explain why my skills and projects align with Google's engineering culture.\n* Request consideration for Software Engineering Internship opportunities.\n* Mention that my resume is attached.\n* Keep the email under 200 words.\n* Generate a compelling subject line and a strong call to action.",
+      "subject": "A Software Engineering Internship Ready To Add Value At JWT Authentication",
+      "emailBody": "Hi JWT Authentication,\n\nI noticed your team is hiring for A Software Engineering Internship, and that immediately caught my attention.\nTeams hiring for this kind of role usually need someone who can contribute quickly, write clean code, and take ownership of production work.\nI bring hands-on experience building backend features, improving APIs, and solving implementation problems with a strong focus on reliability and execution.\nI would welcome the opportunity to contribute to JWT Authentication and discuss how my background fits the role.\n\nBest regards,\nSaurav Ratan\nSoftware Engineer",
+      "linkedInDM": "Hi, I came across the A Software Engineering Internship opening at JWT Authentication. I have experience building production-ready backend features and improving system reliability, and I would love to connect briefly to share why I could be a strong fit for the role.",
+      "followUpEmail": "Hi JWT Authentication,\n\nFollowing up on my earlier note regarding the A Software Engineering Internship opportunity.\nI remain very interested and believe I can contribute through strong engineering fundamentals, ownership, and reliable execution.\nIf helpful, I would be glad to share a short summary of relevant projects and backend work aligned with your hiring needs.\n\nBest regards,\nSaurav Ratan",
+      "generationMode": "local-template",
+      "createdAt": "2026-06-18T17:22:47.334Z",
+      "updatedAt": "2026-06-18T17:22:47.334Z"
+    },
+    {
+      "_id": "b4dde6fb-fa8d-4e4b-97c3-403192f092ac",
+      "userId": "57eee232-727d-494f-ab03-3be967b7075a",
+      "prompt": "Write a professional cold email to an HR recruiter or hiring manager for a Software Engineer/Internship opportunity.\n\nCandidate Details:\n\n* Name: Saurav Ratan\n* B.Tech Computer Science student at IIIT Jabalpur (2023–2027)\n* Strong in Data Structures & Algorithms with 600+ problems solved across LeetCode, Codeforces, and GeeksforGeeks\n* Codeforces Specialist (1402 rating)\n* Semi-Finalist in Flipkart Grid 7.0\n* Qualified JEE Advanced and secured 98.2 percentile in JEE Mains\n* Technical Skills: C++, JavaScript, React.js, Node.js, Express.js, MongoDB, MySQL, Git\n* Projects:\n\n  1. AI Interview Preparation Platform (MERN Stack, JWT Authentication, AI-powered interview generation)\n  2. Full-Stack E-commerce Platform with secure authentication and database integration\n  3. Other backend-focused MERN projects\n\nEmail Requirements:\n\n* Keep the email concise (150–200 words).\n* Start with a personalized greeting.\n* Briefly introduce the candidate and academic background.\n* Highlight key technical skills, achievements, and projects relevant to software engineering.\n* Express genuine interest in contributing to the company.\n* Politely inquire about internship or full-time opportunities.\n* Mention that the resume is attached.\n* End with a professional call-to-action and thank-you note.\n* Maintain a confident, professional, and enthusiastic tone.",
+      "subject": "A Software Engineer/Internship Opportunity Ready To Add Value At IIIT Jabalpur",
+      "emailBody": "Hi IIIT Jabalpur,\n\nI noticed your team is hiring for A Software Engineer/Internship Opportunity, and that immediately caught my attention.\nTeams hiring for this kind of role usually need someone who can contribute quickly, write clean code, and take ownership of production work.\nI bring hands-on experience building backend features, improving APIs, and solving implementation problems with a strong focus on reliability and execution.\nI would welcome the opportunity to contribute to IIIT Jabalpur and discuss how my background fits the role.\n\nBest regards,\nSaurav Ratan\nSoftware Engineer",
+      "linkedInDM": "Hi, I came across the A Software Engineer/Internship Opportunity opening at IIIT Jabalpur. I have experience building production-ready backend features and improving system reliability, and I would love to connect briefly to share why I could be a strong fit for the role.",
+      "followUpEmail": "Hi IIIT Jabalpur,\n\nFollowing up on my earlier note regarding the A Software Engineer/Internship Opportunity opportunity.\nI remain very interested and believe I can contribute through strong engineering fundamentals, ownership, and reliable execution.\nIf helpful, I would be glad to share a short summary of relevant projects and backend work aligned with your hiring needs.\n\nBest regards,\nSaurav Ratan",
+      "generationMode": "local-template",
+      "createdAt": "2026-06-18T17:25:06.329Z",
+      "updatedAt": "2026-06-18T17:25:06.329Z"
+    }
+  ]
+}
