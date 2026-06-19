@@ -29,7 +29,11 @@ const Dashboard = () => {
             toast.success(data.generationMode === 'local-template' ? 'Generated successfully in local mode.' : 'Successfully generated!');
         } catch (error) {
             setResult(null);
-            toast.error(error.response?.data?.message || 'Failed to generate. Please try again.');
+            toast.error(
+                error.response?.status === 401
+                    ? 'Your session expired. Please log in again.'
+                    : error.response?.data?.message || 'Failed to generate. Please try again.'
+            );
         } finally {
             setLoading(false);
         }

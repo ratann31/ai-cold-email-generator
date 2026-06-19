@@ -1,4 +1,5 @@
 import React, { createContext, useState, useContext, useEffect } from 'react';
+import { clearStoredAuth, getStoredToken, getStoredUser, setStoredAuth } from '../utils/authStorage';
 
 const AuthContext = createContext();
 
@@ -9,26 +10,25 @@ export const AuthProvider = ({ children }) => {
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-        const userInfo = localStorage.getItem('userInfo');
-        if (userInfo) {
-            try {
-                setUser(JSON.parse(userInfo));
-            } catch (e) {
-                localStorage.removeItem('userInfo');
-            }
+        const storedUser = getStoredUser();
+        const token = getStoredToken();
+
+        if (storedUser && token) {
+            setUser(storedUser);
+        } else {
+            clearStoredAuth();
         }
+
         setLoading(false);
     }, []);
 
     const login = (userData) => {
-        localStorage.setItem('userInfo', JSON.stringify(userData));
-        localStorage.setItem('token', userData.token);
+        setStoredAuth(userData);
         setUser(userData);
     };
 
     const logout = () => {
-        localStorage.removeItem('userInfo');
-        localStorage.removeItem('token');
+        clearStoredAuth();
         setUser(null);
     };
 
