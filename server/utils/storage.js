@@ -78,9 +78,9 @@ const stripPassword = (user) => {
     return safeUser;
 };
 
-const createUser = async ({ name, email, password, otp, otpExpiry }) => {
+const createUser = async ({ name, email, username, password, otp, otpExpiry }) => {
     if (isMongoConnected()) {
-        return User.create({ name, email, password, otp, otpExpiry });
+        return User.create({ name, email, username, password, otp, otpExpiry });
     }
 
     const data = loadData();
@@ -89,6 +89,7 @@ const createUser = async ({ name, email, password, otp, otpExpiry }) => {
         _id: crypto.randomUUID(),
         name,
         email,
+        username,
         password: hashedPassword,
         isVerified: false,
         otp,

@@ -14,6 +14,8 @@ const generateOTP = () => {
   return Math.floor(100000 + Math.random() * 900000).toString();
 };
 
+const buildUsername = (email) => email.toLowerCase().trim();
+
 exports.registerUser = async (req, res) => {
   try {
     const { name, email, password } = req.body;
@@ -48,6 +50,7 @@ exports.registerUser = async (req, res) => {
     const user = await createUser({
       name: name.trim(),
       email: normalizedEmail,
+      username: buildUsername(normalizedEmail),
       password,
       otp,
       otpExpiry
@@ -71,6 +74,15 @@ exports.registerUser = async (req, res) => {
     });
   } catch (error) {
     console.error('Registration error:', error);
+
+    if (error.code === 11000) {
+      const duplicateField = Object.keys(error.keyPattern || {})[0] || 'account';
+      const duplicateFieldLabel = duplicateField === 'email' ? 'Email' : 'Account';
+      return res.status(400).json({
+        message: `${duplicateFieldLabel} already registered. Please try logging in.`
+      });
+    }
+
     res.status(500).json({ message: 'Registration failed', error: error.message });
   }
 };
@@ -107,6 +119,10 @@ exports.verifyOTP = async (req, res) => {
 
     if (user.otp !== otp) {
       return res.status(400).json({ message: 'Invalid OTP. Please try again.' });
+    }
+
+    if (!user.username) {
+      user.username = buildUsername(user.email);
     }
 
     user.isVerified = true;
